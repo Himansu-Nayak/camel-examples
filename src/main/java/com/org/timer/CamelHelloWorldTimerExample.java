@@ -4,6 +4,9 @@ import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
 
+/**
+ * create timer and scheduled for executing every 2sec
+ */
 public class CamelHelloWorldTimerExample {
     public static void main(String...args) throws Exception {
         CamelContext context = new DefaultCamelContext();

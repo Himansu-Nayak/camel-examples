@@ -6,6 +6,10 @@ import org.apache.camel.spring.SpringCamelContext;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+/**
+ * Read from queue and send it bean and than to stream.
+ * Refer applicationContext.xml
+ */
 public class CamelHelloWorldSpringExample {
     public static void main(String...args) throws Exception {
         ApplicationContext appContext = new ClassPathXmlApplicationContext("applicationContext.xml");
