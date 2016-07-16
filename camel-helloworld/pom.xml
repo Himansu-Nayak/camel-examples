@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>com.org.camel</groupId>
-    <artifactId>helloworld</artifactId>
+    <artifactId>camel-helloworld</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <properties>
